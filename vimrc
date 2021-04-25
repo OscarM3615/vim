@@ -1,0 +1,44 @@
+" General settings
+source ~/.vim/settings.vim
+
+" Automatically install vim-plug if not installed.
+if empty(glob('~/.vim/autoload/plug.vim'))
+	silent execute '!curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+	autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+call plug#begin('~/.vim/plugged')
+Plug 'joshdick/onedark.vim' " onedark theme
+Plug 'mhinz/vim-startify' " home page
+Plug 'preservim/nerdtree' " files explorer
+Plug 'Xuyuanp/nerdtree-git-plugin' " git status flags on explorer
+Plug 'ryanoasis/vim-devicons' " icons on explorer
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight' " colours in explorer icons
+Plug 'voldikss/vim-floaterm' " floating terminal
+Plug 'preservim/tagbar' " code outline
+Plug 'vim-airline/vim-airline' " enhance the bottom bar
+Plug 'neoclide/coc.nvim', {'branch': 'release'} " language server
+Plug 'mattn/emmet-vim' " emmet support
+Plug 'editorconfig/editorconfig-vim' " check for .editorconfig files
+Plug 'https://tpope.io/vim/fugitive.git' " git hints for airline
+Plug 'sheerun/vim-polyglot' " multiple language support
+Plug 'vim-scripts/dbext.vim' " SQL support
+Plug 'nicwest/vim-http' " use as REST client
+Plug 'ap/vim-css-color'	" preview colours
+Plug 'airblade/vim-accent' " support for accents
+call plug#end()
+
+syntax on
+filetype plugin indent on
+colorscheme onedark
+
+" Source plugin config files here.
+source ~/.vim/config/coc.vim
+source ~/.vim/config/emmet-vim.vim
+source ~/.vim/config/fugitive.vim
+source ~/.vim/config/nerdtree.vim
+source ~/.vim/config/tagbar.vim
+source ~/.vim/config/vim-airline.vim
+source ~/.vim/config/vim-floaterm.vim
+source ~/.vim/config/vim-http.vim
+source ~/.vim/config/vim-startify.vim
