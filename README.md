@@ -1,5 +1,13 @@
 # Vim Settings Directory
 
+## Prerequisites
+
+- Git (required by fugitive)
+- NPM (required by vim-plug to install plugins)
+- Yarn (required by coc to install extensions)
+- Nerd font (otherwise, icons won't display correctly)
+- Ctags (required by tagbar)
+
 ## Installation
 
 To use this config, clone the repository:
