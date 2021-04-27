@@ -9,6 +9,8 @@ tnoremap <silent> <F3> <C-\><C-n>:FloatermNext<CR>
 nnoremap <silent> <F4> :FloatermNew<CR>
 tnoremap <silent> <F4> <C-\><C-n>:FloatermNew<CR>
 
+nnoremap <silent> <leader>lg :FloatermNew lazygit<CR>
+
 " Settings
 
 let g:floaterm_width = 0.8
