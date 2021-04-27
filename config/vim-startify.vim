@@ -1,6 +1,11 @@
+" Mappings
+
+nnoremap <leader>ss :SSave<CR>
+
 " Settings
 
-let g:startify_custom_header = ['  __     ___',
+let g:startify_custom_header = [
+		\ '  __     ___',
 		\ '  \ \   / (_)_ __ ___',
 		\ '   \ \ / /| | ''_ ` _ \',
 		\ '    \ V / | | | | | | |',
@@ -16,3 +21,10 @@ let g:startify_lists = [
 		\ { 'type': 'sessions', 'header': ['   Sessions'] },
 		\ { 'type': 'bookmarks', 'header': ['   Bookmarks']}
 	\ ]
+
+autocmd VimEnter *
+	\ if !argc()
+		\ | Startify
+		\ | NERDTree
+		\ | wincmd w
+	\ | endif
