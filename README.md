@@ -22,3 +22,7 @@ Then, run `vim` in the terminal, plugins will be installed automatically.
 - `config`: Plugin config files to set up each one separately.
 - `coc-settings.json`: vim-coc settings.
 - `vimrc`: General settings and sources the `config/*.vim` files.
+
+## Recommended tools
+
+- lazygit (console-based ui git workflow)
