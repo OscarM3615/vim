@@ -2,7 +2,7 @@
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#show_splits = 0
-let g:airline#extension#tabline#show_buffers = 0
+let g:airline#extensions#tabline#show_buffers = 0
 let g:airline_theme = 'onedark'
 let g:airline_powerline_fonts = 1
 let g:airline_left_sep = ' '
