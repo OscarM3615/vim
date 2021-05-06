@@ -14,10 +14,15 @@ let g:startify_custom_header = [
 
 let g:startify_files_number = 5
 
+let g:startify_commands = [
+		\ ['New note', 'enew | set ft=markdown']
+	\ ]
+
 let g:startify_bookmarks = systemlist("cut -sd' ' -f 2- ~/.NERDTreeBookmarks")
 let g:startify_lists = [
 		\ { 'type': 'dir', 'header': ['   Current Directory ' . getcwd()] },
 		\ { 'type': 'files', 'header': ['   Files'] },
+		\ { 'type': 'commands', 'header': ['   Commands'] },
 		\ { 'type': 'sessions', 'header': ['   Sessions'] },
 		\ { 'type': 'bookmarks', 'header': ['   Bookmarks']}
 	\ ]
