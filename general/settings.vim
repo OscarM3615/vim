@@ -14,6 +14,7 @@ set shortmess+=c " hide completion messages
 set splitbelow " always split a pane to the bottom
 set splitright " always split a pane to the right
 set nowrap " disable word wrap
+set linebreak " dont split words when word wrap is on
 set hidden " TextEdit might fail if not set
 set nobackup " don't keep the backup file
 set nowritebackup " don't create a backup file

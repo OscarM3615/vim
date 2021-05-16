@@ -1,9 +1,3 @@
-" Mappings
-
-nnoremap <leader>ss :SSave<CR>
-
-" Settings
-
 let g:startify_custom_header = [
 		\ '  __     ___',
 		\ '  \ \   / (_)_ __ ___',
