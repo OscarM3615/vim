@@ -19,6 +19,7 @@ Plug 'mattn/emmet-vim' " emmet support
 Plug 'editorconfig/editorconfig-vim' " check for .editorconfig files
 Plug 'https://tpope.io/vim/fugitive.git' " git hints for airline
 Plug 'sheerun/vim-polyglot' " multiple language support
+Plug 'sotte/presenting.vim' " show markdown as slides
 Plug 'vim-scripts/dbext.vim' " SQL support
 Plug 'KarimElghamry/vim-auto-comment' " auto comment code
 Plug 'nicwest/vim-http' " use as REST client

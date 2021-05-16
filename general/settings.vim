@@ -27,7 +27,7 @@ set mouse=a " allow mouse interaction
 
 autocmd FileType python setlocal expandtab tabstop=4 shiftwidth=4
 autocmd FileType gitcommit setlocal colorcolumn=50
-autocmd FileType markdown setlocal wrap expandtab
+autocmd FileType markdown setlocal wrap textwidth=80 colorcolumn= expandtab
 
 let mapleader = ' '
 nnoremap <silent> <F12> :source $MYVIMRC<CR>

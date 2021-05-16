@@ -49,3 +49,6 @@ nnoremap <silent> <leader>lg :FloatermNew lazygit<CR>
 
 " Save current session
 nnoremap <leader>ss :SSave<CR>
+
+" Start a presentation in markdown files.
+autocmd FileType markdown nnoremap <silent> <F5> :PresentingStart<CR>:setlocal colorcolumn=<CR>
