@@ -9,8 +9,9 @@ nmap <silent> gi <Plug>(coc-implementation)
 
 " Rename symbol
 nmap <leader>rn <Plug>(coc-rename)
+
+" Apply format to file
 nnoremap <leader>ff :CocCommand prettier.formatFile<CR>
-nnoremap <silent> K :call <SID>show_documentation()<CR>
 
 " Fix merge conflicts in diff mode
 nmap <leader>gh :diffget //2<CR>

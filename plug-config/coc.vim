@@ -9,6 +9,8 @@ inoremap <silent><expr> <c-@> coc#refresh()
 inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
 	\: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 
+nnoremap <silent> K :call <SID>show_documentation()<CR>
+
 function! s:check_back_space() abort
 	let col = col('.') - 1
 	return !col || getline('.')[col - 1] =~# '\s'
