@@ -1,3 +1,4 @@
-let g:presenting_figlets = 0
+let g:presenting_font_large = 'slant'
+let g:presenting_font_small = 'small'
 
-let b:presenting_slide_separator = '---'
+au FileType markdown let b:presenting_slide_separator = '---'
