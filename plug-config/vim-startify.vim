@@ -11,7 +11,9 @@ let g:startify_change_to_dir = 0
 
 let g:startify_commands = [
 		\ {'n': ['New note', 'enew | set ft=markdown']},
-		\ {'u': ['Update plugins', 'PlugUpdate']}
+		\ {'u': ['Update plugins', 'PlugUpdate']},
+		\ {'i': ['Install plugins', 'PlugInstall']},
+		\ {'c': ['Clean plugins', 'PlugClean']}
 	\ ]
 
 let g:startify_bookmarks = systemlist("cut -sd' ' -f 2- ~/.NERDTreeBookmarks")
