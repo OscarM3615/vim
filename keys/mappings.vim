@@ -25,6 +25,10 @@ nmap <leader>gc :Git commit<CR>
 nmap <leader>gk :Git push<CR>
 nmap <leader>gj :Git pull<CR>
 
+" Toggle comments
+nnoremap <silent> <C-_> :Commentary<CR>
+vnoremap <silent> <C-_> :Commentary<CR>
+
 " Toggle NerdTree
 nnoremap <silent> <C-b> :NERDTreeToggle<CR>
 
