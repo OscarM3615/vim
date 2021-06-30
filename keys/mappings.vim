@@ -27,6 +27,7 @@ nmap <leader>gj :Git pull<CR>
 
 " Toggle comments
 nnoremap <silent> <C-_> :Commentary<CR>
+inoremap <silent> <C-_> <C-o>:Commentary<CR>
 vnoremap <silent> <C-_> :Commentary<CR>
 
 " Toggle NerdTree
