@@ -7,8 +7,9 @@
 		"javascriptreact",
 		"typescriptreact"
 	],
-	"python.linting.pylintEnabled": true,
 	"python.linting.enabled": true,
+	"python.linting.mypyEnabled": true,
+	"python.linting.pylintEnabled": false,
 	"diagnostic.errorSign": "●",
 	"diagnostic.warningSign": "●",
 	"diagnostic.infoSign": "●",
