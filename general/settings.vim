@@ -30,11 +30,6 @@ autocmd FileType gitcommit setlocal colorcolumn=50
 autocmd FileType markdown setlocal wrap textwidth=80 expandtab
 
 let mapleader = ' '
-nnoremap <silent> <F12> :source $MYVIMRC<CR>
-nnoremap <silent> <leader>tn :tabedit<CR>
-nnoremap <silent> <leader>sh :sp<CR>
-nnoremap <silent> <leader>sv :vsp<CR>
-nnoremap <leader>fi gg=G''
 nnoremap <leader>d "_d
 xnoremap <leader>d "_d
 nnoremap <leader>y "+y

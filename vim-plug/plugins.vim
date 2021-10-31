@@ -8,6 +8,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'joshdick/onedark.vim' " onedark theme
 Plug 'mhinz/vim-startify' " home page
 Plug 'preservim/nerdtree' " files explorer
+Plug 'liuchengxu/vim-which-key' " keybindings manager
 Plug 'Xuyuanp/nerdtree-git-plugin' " git status flags on explorer
 Plug 'ryanoasis/vim-devicons' " icons on explorer
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight' " colours in explorer icons
