@@ -24,7 +24,7 @@ Plug 'tpope/vim-commentary' " toggle comments
 Plug 'sheerun/vim-polyglot' " multiple language support
 Plug 'evanleck/vim-svelte', {'branch': 'main'} " svelte syntax
 Plug 'sotte/presenting.vim' " show markdown as slides
-Plug 'vim-scripts/dbext.vim' " SQL support
+" Plug 'vim-scripts/dbext.vim' " SQL support
 Plug 'nicwest/vim-http' " use as REST client
 Plug 'ap/vim-css-color'	" preview colours
 Plug 'airblade/vim-accent' " support for accents
