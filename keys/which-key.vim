@@ -65,7 +65,7 @@ let g:which_key_map.s = {
   \ 'v': [':vsp', 'split vertical'],
 \ }
 
-nnoremap <leader>xb :!bibtex %<CR>
+nnoremap <leader>xb :!bibtex $(echo % \| sed 's/.tex$//')<CR>
 nnoremap <leader>xc :!pdflatex %<CR>
 nnoremap <leader>xp :!mupdf $(echo % \| sed 's/tex$/pdf/') & disown<CR><CR>
 
