@@ -31,6 +31,7 @@ let g:which_key_map['l'] = [':FloatermNew lazygit', 'lazygit']
 let g:which_key_map['p'] = ['"+p', 'paste from clipboard']
 let g:which_key_map['S'] = [':SSave', 'save session']
 let g:which_key_map['t'] = [':TagbarToggle', 'toggle Tagbar']
+let g:which_key_map['w'] = [':set wrap!', 'toggle wrap']
 let g:which_key_map['y'] = ['"+y', 'yank to clipboard']
 
 let g:which_key_map.c = {
