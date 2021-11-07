@@ -25,9 +25,11 @@ set updatetime=300 " reduce the update time
 set signcolumn=number " show diagnostics in number column
 set mouse=a " allow mouse interaction
 
+" File-type exclusive config
 autocmd FileType python setlocal expandtab tabstop=4 shiftwidth=4
 autocmd FileType gitcommit setlocal colorcolumn=50
 autocmd FileType markdown setlocal wrap textwidth=80 expandtab
+autocmd FileType tex setlocal wrap
 
 let mapleader = ' '
 nnoremap <leader>d "_d

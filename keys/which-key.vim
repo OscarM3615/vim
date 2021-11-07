@@ -65,5 +65,16 @@ let g:which_key_map.s = {
   \ 'v': [':vsp', 'split vertical'],
 \ }
 
+nnoremap <leader>xb :!bibtex %<CR>
+nnoremap <leader>xc :!pdflatex %<CR>
+nnoremap <leader>xp :!mupdf $(echo % \| sed 's/tex$/pdf/') & disown<CR><CR>
+
+let g:which_key_map.x = {
+  \ 'name': '+latex',
+  \ 'b': 'bind references',
+  \ 'c': 'compile pdf',
+  \ 'p': 'preview pdf',
+\ }
+
 " Register which key map
 call which_key#register('<Space>', 'g:which_key_map')
