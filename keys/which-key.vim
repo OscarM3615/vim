@@ -7,7 +7,7 @@ let g:which_key_map = {}
 " Define a separator
 let g:which_key_sep = '→'
 
-set timeoutlen=200
+set timeoutlen=300
 
 let g:which_key_use_floating_win = 0
 
