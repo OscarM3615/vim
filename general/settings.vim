@@ -37,8 +37,3 @@ xnoremap <leader>d "_d
 nnoremap <leader>y "+y
 xnoremap <leader>y "+y
 nnoremap <leader>p "+p
-
-" Try to use IBeam cursor.
-let &t_SI = "\<Esc>[6 q"
-let &t_SR = "\<Esc>[6 q"
-let &t_EI = "\<Esc>[6 q"
