@@ -23,5 +23,6 @@
 	"prettier.singleQuote": true,
 	"prettier.useTabs": true,
 	"prettier.arrowParens": "always",
-	"prettier.trailingComma": "none"
+  "prettier.trailingComma": "none",
+  "svelte.enable-ts-plugin": true
 }
