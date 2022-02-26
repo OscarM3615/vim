@@ -27,3 +27,4 @@ endfunction
 hi! CocErrorSign guifg=#d1666a
 hi! CocWarningSign guifg=#e5c07b
 hi! CocInfoSign guifg=#e5c07b
+hi! CocHintSign guifg=#e5c07b
