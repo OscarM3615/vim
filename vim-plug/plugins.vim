@@ -16,7 +16,6 @@ Plug 'voldikss/vim-floaterm' " floating terminal
 Plug 'preservim/tagbar' " code outline
 Plug 'vim-airline/vim-airline' " enhance the bottom bar
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " language server
-Plug 'dsznajder/vscode-es7-javascript-react-snippets', { 'do': 'yarn install --frozen-lockfile && yarn compile' }
 Plug 'mattn/emmet-vim' " emmet support
 Plug 'editorconfig/editorconfig-vim' " check for .editorconfig files
 Plug 'https://tpope.io/vim/fugitive.git' " git hints for airline
@@ -24,7 +23,6 @@ Plug 'tpope/vim-commentary' " toggle comments
 Plug 'sheerun/vim-polyglot' " multiple language support
 Plug 'evanleck/vim-svelte', {'branch': 'main'} " svelte syntax
 Plug 'sotte/presenting.vim' " show markdown as slides
-" Plug 'vim-scripts/dbext.vim' " SQL support
 Plug 'nicwest/vim-http' " use as REST client
 Plug 'ap/vim-css-color'	" preview colours
 Plug 'airblade/vim-accent' " support for accents
