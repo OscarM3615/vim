@@ -12,6 +12,7 @@
 	"python.linting.mypyEnabled": true,
 	"python.linting.mypyPath": "~/.local/bin/mypy",
 	"python.linting.pylintEnabled": false,
+	"python.jediPath": "~/.local/lib/python3.10/site-packages",
 	"diagnostic.errorSign": "●",
 	"diagnostic.warningSign": "●",
 	"diagnostic.infoSign": "●",
