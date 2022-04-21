@@ -9,7 +9,7 @@ set encoding=utf-8 " always open with encoding utf-8
 set endofline " always add a blank line to the end of file
 set number " show line numbers
 set cursorline " highlight the current line
-set completeopt=menuone,longest " always show the autocomplete dialog
+set completeopt=noinsert,menuone " always show the autocomplete dialog
 set shortmess+=c " hide completion messages
 set splitbelow " always split a pane to the bottom
 set splitright " always split a pane to the right
