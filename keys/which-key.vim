@@ -58,6 +58,11 @@ let g:which_key_map.g = {
   \ 's': [':G', 'status'],
 \ }
 
+let g:which_key_map.h = {
+  \ 'name': '+http',
+  \ 'e': [':Http', 'execute request'],
+\ }
+
 let g:which_key_map.s = {
   \ 'name': '+split',
   \ 'h': [':sp', 'split horizontal'],
