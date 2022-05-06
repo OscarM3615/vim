@@ -27,12 +27,17 @@ let g:which_key_map['/'] = [':Commentary', 'toggle comment']
 let g:which_key_map['b'] = [':NERDTreeToggle', 'toggle NERDTree']
 let g:which_key_map['C'] = [':source $MYVIMRC', 'reload config']
 let g:which_key_map['d'] = ['"_d', 'delete']
-let g:which_key_map['l'] = [':FloatermNew lazygit', 'lazygit']
 let g:which_key_map['p'] = ['"+p', 'paste from clipboard']
 let g:which_key_map['S'] = [':SSave', 'save session']
 let g:which_key_map['t'] = [':TagbarToggle', 'toggle Tagbar']
 let g:which_key_map['w'] = [':set wrap!', 'toggle wrap']
 let g:which_key_map['y'] = ['"+y', 'yank to clipboard']
+
+let g:which_key_map.a = {
+  \ 'name': '+app',
+  \ 'l': [':FloatermNew lazygit', 'lazygit'],
+  \ 'r': [':FloatermNew ranger', 'ranger'],
+\ }
 
 let g:which_key_map.c = {
   \ 'name': '+code',
@@ -61,6 +66,13 @@ let g:which_key_map.g = {
 let g:which_key_map.h = {
   \ 'name': '+http',
   \ 'e': [':Http', 'execute request'],
+\ }
+
+let g:which_key_map.l = {
+  \ 'name': '+language',
+  \ 'd': [':set nospell', 'disable'],
+  \ 'n': [':set spell spelllang=en', 'english'],
+  \ 's': [':set spell spelllang=es', 'spanish'],
 \ }
 
 let g:which_key_map.s = {
