@@ -47,10 +47,13 @@ let g:which_key_map.c = {
   \ 'r': ['<Plug>(coc-rename)', 'rename symbol'],
 \ }
 
+nnoremap <leader>fs :execute 'w '.strftime('%F.md')<CR>
+
 let g:which_key_map.f = {
   \ 'name': '+file',
   \ 'f': [':CocCommand prettier.formatFile', 'format file'],
   \ 'i': ["gg=G''", 'fix indentation'],
+  \ 's': 'save with date',
 \ }
 
 let g:which_key_map.g = {
