@@ -13,7 +13,8 @@ let g:startify_commands = [
 		\ {'n': ['New note', 'enew | set ft=markdown']},
 		\ {'u': ['Update plugins', 'PlugUpdate']},
 		\ {'i': ['Install plugins', 'PlugInstall']},
-		\ {'c': ['Clean plugins', 'PlugClean']}
+		\ {'c': ['Clean plugins', 'PlugClean']},
+		\ {'x': ['Update coc extensions', 'CocUpdate']}
 	\ ]
 
 let g:startify_bookmarks = systemlist("cut -sd' ' -f 2- ~/.NERDTreeBookmarks")
