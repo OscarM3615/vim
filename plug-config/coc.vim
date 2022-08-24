@@ -1,12 +1,12 @@
 " Autocomplete
 inoremap <silent> <C-@> <C-x><C-o>
 inoremap <silent><expr> <TAB>
-	\ pumvisible() ? "\<C-n>" :
+	\ coc#pum#visible() ? coc#pum#next(1) :
 	\ <SID>check_back_space() ? "\<TAB>" :
 	\ coc#refresh()
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 inoremap <silent><expr> <c-@> coc#refresh()
-inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
+inoremap <silent><expr> <cr> coc#pum#visible() ? coc#pum#confirm()
 	\: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 
 nnoremap <silent> K :call <SID>show_documentation()<CR>
