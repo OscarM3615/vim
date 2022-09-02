@@ -46,6 +46,7 @@ let g:which_key_map.c = {
   \ 'd': ['<Plug>(coc-definition)', 'go to definition'],
   \ 'i': ['<Plug>(coc-implementation)', 'go to implementation'],
   \ 'r': ['<Plug>(coc-rename)', 'rename symbol'],
+  \ 'x': [':s/- \[ \]/- [x]/', 'complete task']
 \ }
 
 nnoremap <leader>fs :execute 'w '.strftime('%F.md')<CR>
