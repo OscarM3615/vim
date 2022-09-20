@@ -25,6 +25,7 @@
 	"prettier.singleQuote": true,
 	"prettier.arrowParens": "always",
 	"prettier.semi": true,
-  "prettier.trailingComma": "none",
-  "svelte.enable-ts-plugin": true
+	"prettier.trailingComma": "none",
+	"svelte.enable-ts-plugin": true,
+	"rust-analyzer.inlayHints.enable": false
 }

@@ -9,6 +9,7 @@ let g:coc_global_extensions = [
 	\ 'coc-markdownlint',
 	\ 'coc-prettier',
 	\ 'coc-python',
+	\ 'coc-rust-analyzer',
 	\ 'coc-snippets',
 	\ 'coc-svelte',
 	\ 'coc-texlab',
