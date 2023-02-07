@@ -29,7 +29,7 @@ set mouse=a " allow mouse interaction
 autocmd FileType python setlocal expandtab tabstop=4 shiftwidth=4
 autocmd FileType gitcommit setlocal colorcolumn=50
 autocmd FileType markdown setlocal wrap textwidth=80 expandtab
-autocmd FileType tex,plaintex setlocal wrap
+autocmd FileType tex,plaintex,bib setlocal wrap
 
 let mapleader = ' '
 nnoremap <leader>d "_d
