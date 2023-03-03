@@ -14,5 +14,6 @@ let g:coc_global_extensions = [
 	\ 'coc-svelte',
 	\ 'coc-texlab',
 	\ 'coc-tsserver',
-	\ '@yaegassy/coc-tailwindcss3'
+	\ '@yaegassy/coc-tailwindcss3',
+	\ '@yaegassy/coc-intelephense'
 \]
