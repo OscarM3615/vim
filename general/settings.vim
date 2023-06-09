@@ -28,7 +28,7 @@ set ignorecase " set text search to case insensitive
 
 " File-type exclusive config
 autocmd FileType python setlocal expandtab tabstop=4 shiftwidth=4
-autocmd FileType gitcommit setlocal colorcolumn=50
+autocmd FileType gitcommit setlocal colorcolumn=50,80
 autocmd FileType markdown setlocal wrap textwidth=80 expandtab
 autocmd FileType tex,plaintex,bib setlocal textwidth=80
 
