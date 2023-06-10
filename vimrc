@@ -5,10 +5,6 @@ source ~/.vim/themes/onedark.vim
 source ~/.vim/keys/mappings.vim
 source ~/.vim/keys/which-key.vim
 
-if has('gui_running')
-	source ~/.vim/general/gui.vim
-endif
-
 " Source plugin config files here.
 source ~/.vim/plug-config/coc.vim
 source ~/.vim/plug-config/emmet-vim.vim
