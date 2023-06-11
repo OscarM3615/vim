@@ -70,11 +70,6 @@ let g:which_key_map.g = {
   \ 's': [':G', 'status'],
 \ }
 
-let g:which_key_map.h = {
-  \ 'name': '+http',
-  \ 'e': [':Http', 'execute request'],
-\ }
-
 let g:which_key_map.l = {
   \ 'name': '+language',
   \ 'd': [':set nospell', 'disable'],
