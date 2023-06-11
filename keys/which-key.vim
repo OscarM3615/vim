@@ -60,16 +60,6 @@ let g:which_key_map.f = {
   \ 's': 'save with date',
 \ }
 
-let g:which_key_map.g = {
-  \ 'name': '+git',
-  \ 'c': [':Git commit', 'commit'],
-  \ 'h': [':diffget //2', 'get left side'],
-  \ 'j': [':Git pull', 'pull'],
-  \ 'k': [':Git push', 'push'],
-  \ 'l': [':diffget //3', 'get right side'],
-  \ 's': [':G', 'status'],
-\ }
-
 let g:which_key_map.l = {
   \ 'name': '+language',
   \ 'd': [':set nospell', 'disable'],
