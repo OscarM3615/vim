@@ -8,4 +8,4 @@ if (empty($TMUX))
 	endif
 endif
 
-colorscheme onedark
+colorscheme catppuccin_macchiato

@@ -5,7 +5,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
-Plug 'joshdick/onedark.vim' " onedark theme
+Plug 'catppuccin/vim', {'as':'catppuccin'} " catppuccin theme
 Plug 'mhinz/vim-startify' " home page
 Plug 'preservim/nerdtree' " files explorer
 Plug 'liuchengxu/vim-which-key' " keybindings manager

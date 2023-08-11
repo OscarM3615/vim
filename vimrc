@@ -1,7 +1,7 @@
 source ~/.vim/general/settings.vim
 source ~/.vim/vim-plug/plugins.vim
 source ~/.vim/vim-plug/coc-extensions.vim
-source ~/.vim/themes/onedark.vim
+source ~/.vim/themes/colorscheme.vim
 source ~/.vim/keys/mappings.vim
 source ~/.vim/keys/which-key.vim
 
