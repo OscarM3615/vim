@@ -24,7 +24,7 @@ function! s:show_documentation()
 	endif
 endfunction
 
-hi! CocErrorSign guifg=#d1666a
-hi! CocWarningSign guifg=#e5c07b
-hi! CocInfoSign guifg=#e5c07b
-hi! CocHintSign guifg=#e5c07b
+hi! CocErrorSign guifg=#ed8796
+hi! CocWarningSign guifg=#eed49f
+hi! CocInfoSign guifg=#eed49f
+hi! CocHintSign guifg=#eed49f

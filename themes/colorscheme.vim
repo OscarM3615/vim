@@ -9,3 +9,5 @@ if (empty($TMUX))
 endif
 
 colorscheme catppuccin_macchiato
+
+hi Normal guibg=NONE ctermbg=NONE
