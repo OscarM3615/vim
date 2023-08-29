@@ -10,4 +10,6 @@ endif
 
 colorscheme catppuccin_macchiato
 
-hi Normal guibg=NONE ctermbg=NONE
+if (!has('gui_running'))
+	hi Normal guibg=NONE ctermbg=NONE
+endif
