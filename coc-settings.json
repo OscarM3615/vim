@@ -1,13 +1,5 @@
 {
-	"coc.preferences.formatOnSaveFiletypes": [
-		"html",
-		"css",
-		"javascript",
-		"typescript",
-		"javascriptreact",
-		"typescriptreact",
-		"svelte"
-	],
+	"coc.preferences.formatOnSave": true,
 	"python.linting.enabled": true,
 	"python.linting.mypyEnabled": true,
 	"python.linting.mypyPath": "~/.local/bin/mypy",
