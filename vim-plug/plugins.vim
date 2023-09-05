@@ -21,7 +21,6 @@ Plug 'editorconfig/editorconfig-vim' " check for .editorconfig files
 Plug 'https://tpope.io/vim/fugitive.git' " git hints for airline
 Plug 'tpope/vim-commentary' " toggle comments
 Plug 'sheerun/vim-polyglot' " multiple language support
-Plug 'sotte/presenting.vim' " show markdown as slides
 Plug 'junegunn/limelight.vim' " hyperfocus writing
 Plug 'ap/vim-css-color'	" preview colours
 Plug 'airblade/vim-accent' " support for accents

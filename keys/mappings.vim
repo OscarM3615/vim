@@ -24,6 +24,3 @@ tnoremap <silent> <F3> <C-\><C-n>:FloatermNext<CR>
 " New terminal
 nnoremap <silent> <F4> :FloatermNew<CR>
 tnoremap <silent> <F4> <C-\><C-n>:FloatermNew<CR>
-
-" Start a presentation in markdown files.
-autocmd FileType markdown nnoremap <silent> <F5> :PresentingStart<CR>
