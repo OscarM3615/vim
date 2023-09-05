@@ -24,6 +24,7 @@ set noshowmode " hide the mode messages
 set updatetime=300 " reduce the update time
 set signcolumn=number " show diagnostics in number column
 set mouse=a " allow mouse interaction
+set ttymouse=sgr " allow mouse in alacritty
 set ignorecase " set text search to case insensitive
 
 " File-type exclusive config
