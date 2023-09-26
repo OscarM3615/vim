@@ -12,4 +12,3 @@ source ~/.vim/plug-config/nerdtree.vim
 source ~/.vim/plug-config/vim-airline.vim
 source ~/.vim/plug-config/vim-floaterm.vim
 source ~/.vim/plug-config/vim-startify.vim
-source ~/.vim/plug-config/presenting.vim
