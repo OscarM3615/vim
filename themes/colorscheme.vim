@@ -9,7 +9,3 @@ if (empty($TMUX))
 endif
 
 colorscheme catppuccin_macchiato
-
-if (!has('gui_running'))
-	hi Normal guibg=NONE ctermbg=NONE
-endif
