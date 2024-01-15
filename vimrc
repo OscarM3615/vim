@@ -11,5 +11,4 @@ source ~/.vim/plug-config/emmet-vim.vim
 source ~/.vim/plug-config/limelight.vim
 source ~/.vim/plug-config/nerdtree.vim
 source ~/.vim/plug-config/vim-airline.vim
-source ~/.vim/plug-config/vim-floaterm.vim
 source ~/.vim/plug-config/vim-startify.vim

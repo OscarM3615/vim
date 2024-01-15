@@ -36,12 +36,6 @@ let g:which_key_map['t'] = [':TagbarToggle', 'toggle Tagbar']
 let g:which_key_map['w'] = [':set wrap!', 'toggle wrap']
 let g:which_key_map['y'] = ['"+y', 'yank to clipboard']
 
-let g:which_key_map.a = {
-  \ 'name': '+app',
-  \ 'l': [':FloatermNew lazygit', 'lazygit'],
-  \ 'r': [':FloatermNew ranger', 'ranger'],
-\ }
-
 let g:which_key_map.c = {
   \ 'name': '+code',
   \ 'a': ['<Plug>(coc-codeaction)', 'code action'],

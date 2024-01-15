@@ -12,7 +12,6 @@ Plug 'liuchengxu/vim-which-key' " keybindings manager
 Plug 'Xuyuanp/nerdtree-git-plugin' " git status flags on explorer
 Plug 'ryanoasis/vim-devicons' " icons on explorer
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight' " colours in explorer icons
-Plug 'voldikss/vim-floaterm' " floating terminal
 Plug 'preservim/tagbar' " code outline
 Plug 'vim-airline/vim-airline' " enhance the bottom bar
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " language server
