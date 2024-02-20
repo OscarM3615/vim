@@ -37,12 +37,11 @@ source ~/.vim/plugins.vim
 source ~/.vim/coc-extensions.vim
 source ~/.vim/keybindings.vim
 
-" Plugin config
+colorscheme catppuccin_macchiato
+
 source ~/.vim/plugins/airline.vim
 source ~/.vim/plugins/coc.vim
 source ~/.vim/plugins/emmet.vim
 source ~/.vim/plugins/limelight.vim
 source ~/.vim/plugins/startify.vim
 source ~/.vim/plugins/which-key.vim
-
-colorscheme catppuccin_macchiato
