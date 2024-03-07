@@ -1,10 +1,4 @@
-let g:startify_custom_header = [
-		\ '  __     ___',
-		\ '  \ \   / (_)_ __ ___',
-		\ '   \ \ / /| | ''_ ` _ \',
-		\ '    \ V / | | | | | | |',
-		\ '     \_/  |_|_| |_| |_|'
-	\]
+let g:startify_custom_header = systemlist("figlet '  Vim'")
 
 let g:startify_files_number = 5
 let g:startify_change_to_dir = 0
