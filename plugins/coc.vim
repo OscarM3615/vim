@@ -1,17 +1,17 @@
 " Autocomplete
 inoremap <silent> <C-@> <C-x><C-o>
-inoremap <silent><expr> <TAB>
+inoremap <silent><expr> <Tab>
 	\ coc#pum#visible() ? coc#pum#next(1) :
-	\ <SID>check_back_space() ? "\<TAB>" :
+	\ CheckBackspace() ? "\<Tab>" :
 	\ coc#refresh()
-inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
 inoremap <silent><expr> <c-@> coc#refresh()
-inoremap <silent><expr> <cr> coc#pum#visible() ? coc#pum#confirm()
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
 	\: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 
 nnoremap <silent> K :call <SID>show_documentation()<CR>
 
-function! s:check_back_space() abort
+function! CheckBackspace() abort
 	let col = col('.') - 1
 	return !col || getline('.')[col - 1] =~# '\s'
 endfunction
